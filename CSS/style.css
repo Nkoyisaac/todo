@@ -1,0 +1,55 @@
+input[type='text']{
+    padding: 5px 6%;
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+
+input[type='submit']{
+   background-color: limegreen;
+   padding: 5px;
+   font-size: 1.5em;
+   border-radius: 3px;
+}
+
+body{
+    font-family: Nunito;
+    background-image: url(../image/wallp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    border: solid 1px grey;
+    width: 60%;
+    max-width: 60%;
+    overflow-x: auto;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px black;
+    background-color: white;
+    cursor: pointer;
+}
+
+li:hover{
+    transform: scale(1.02);
+}
+
+
+h1{
+    color: white;
+}
+
+ul{
+    box-sizing: border-box;
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+    height: 600px;
+    max-height: 600px;
+    overflow-y: scroll;
+    margin-top: 2%;
+}
